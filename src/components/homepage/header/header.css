@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .typographyStyles {
+ 
+   flex: 1;
+   color: red;
+   font-weight: 900;
+    font-size:2.375rem;
+    line-height:  1.2;
+    font-family: Lato,sans-serif;
+    
+}
+
+
+
+    .placement{
+        font-weight: 900;
+        font-size: 1rem;
+        line-height: 1;
+        font-family: Lato,sans-serif;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .typographyStyles {
+            font-size:0.2rem;
+            /* padding-right: 3px; */
+        }
+        .placement{
+            font-size: 0.5rem;
+            padding-right: 10px;
+        }
+
+      }
